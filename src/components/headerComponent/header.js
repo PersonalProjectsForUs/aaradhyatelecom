@@ -1,16 +1,14 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import '../../content/css/header.css';
-
-import Logo from './logo'
 import HeaderRight from './menu'
+import Logo from './logo'
+import NavigationBar from './navigationBar';
 
 class Header extends React.Component {
     render() {
         return (
-            <div className="headerHolder">
-                <Logo/>
-                <HeaderRight/>
-            </div>
+            <NavigationBar/>
         )
     }
 }

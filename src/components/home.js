@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import '../../content/css/header.css';
 import { Row, Col } from 'react-bootstrap';
 
-export default class HeaderRight extends Component {
+export default class HomeComponent extends Component {
     render() {
         return (
             <Row>
-                Header Right
+                Home Component
             </Row>
         );
     }
