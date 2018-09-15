@@ -2,6 +2,7 @@
   "name": "aaradhyatelecom",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://singhmukeshk.github.io/aaradhyatelecom/",
   "dependencies": {
     "react": "^16.5.0",
     "react-bootstrap": "^0.32.4",
@@ -14,6 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
